@@ -9,7 +9,7 @@ import CountriesGame from './Games/CountriesGame.jsx';
 class App extends Component {
   render() {
     return (
-      <Router basename={import.meta.env.MODE === 'production' ? '/cartoguessr_app/' : '/'}>
+      <Router>
         <Routes>
           <Route path="/" element={<Navigate replace to="/principal" />} />
           <Route path="/principal" element={<Principal />} />
