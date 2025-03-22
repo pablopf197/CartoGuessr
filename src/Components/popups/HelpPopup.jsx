@@ -10,7 +10,7 @@ const HelpPopup = ({toggleHelp }) => {
         <h2 tabIndex="1" ref={helpPopupFirstElementRef} role="heading" aria-level="2" aria-label="About the screen symbols">About the screen symbols:</h2>
         <div className="simbolos">
           <div className='home'>
-            <img src="../images/homeIcon.png" aria-label="Home Icon" />
+            <img src="/images/homeIcon.png" aria-label="Home Icon" />
             <p tabIndex="1" aria-label="Clicking on this symbol returns you to the home screen.">Clicking on this symbol returns you to the home screen.</p>
           </div>
           <div className='cartoguessr'>
@@ -18,13 +18,13 @@ const HelpPopup = ({toggleHelp }) => {
             <p tabIndex="1" aria-label="Clicking on this symbol returns you to the home screen.">Clicking on this symbol returns you to the home screen.</p>
           </div>
           <div className='usuario'>
-            <img src="images/userIcon.png" aria-label="User Icon" />
+            <img src="/images/userIcon.png" aria-label="User Icon" />
             <p tabIndex="1" aria-label="Clicking on this symbol displays the user registration and login.">Clicking on this symbol displays the user registration and login.</p>
           </div>
         </div>
         <h2 tabIndex="1" role="heading" aria-level="2" aria-label="About the game types">About the game types:</h2>
         <div className="juego">
-          <img src="../images/countriesGame.jpg" aria-label="Countries game image" />
+          <img src="/images/countriesGame.jpg" aria-label="Countries game image" />
           <div>
             <h2 tabIndex="1" role="heading" aria-level="2" aria-label="Countries Game">Countries Game</h2>
             <p tabIndex="1" aria-label="In this exciting game, you'll immerse yourself in a fascinating world map.">In this exciting game, you'll immerse yourself in a fascinating world map.</p>
@@ -35,7 +35,7 @@ const HelpPopup = ({toggleHelp }) => {
           </div>
         </div>
         <div className="juego" >
-          <img src="images/flagsGame.jpg" aria-label="Flags game image" />
+          <img src="/images/flagsGame.jpg" aria-label="Flags game image" />
           <div>
             <h2 tabIndex="1" role="heading" aria-level="2" aria-label="Flags Game">Flags Game</h2>
             <p tabIndex="1" aria-label="With this game, you'll test your knowledge of national flags from different countries.">With this game, you'll test your knowledge of national flags from different countries.</p>
@@ -45,7 +45,7 @@ const HelpPopup = ({toggleHelp }) => {
           </div>
         </div>
         <div className="juego">
-          <img src="images/capitalsGame.jpg" aria-label="Capitals game image" />
+          <img src="/images/capitalsGame.jpg" aria-label="Capitals game image" />
           <div>
             <h2 tabIndex="1" role="heading" aria-level="2" aria-label="Capitals Game">Capitals Game</h2>
             <p tabIndex="1" aria-label="Welcome to the fun challenge of world capitals!">Welcome to the fun challenge of world capitals!</p>
@@ -60,15 +60,15 @@ const HelpPopup = ({toggleHelp }) => {
           <ul>
             <li tabIndex="1" aria-label="By selecting this mode, you can play without any time restrictions. It's ideal for those who prefer a more relaxed pace, enjoying and memorizing each country on the globe.">
               <b>Normal:</b> By selecting this mode, you can play without any time restrictions. It's ideal for those who prefer a more relaxed pace, enjoying and memorizing each country on the globe.
-              <img src="images/normalModeHelp.png" aria-label="Normal mode image" />
+              <img src="/images/normalModeHelp.png" aria-label="Normal mode image" />
             </li>
             <p tabIndex="1" aria-label="Country options: You can also choose how many countries you want to include in your game. The options are: 10, 40, 75, or 135 countries.">Country options: You can also choose how many countries you want to include in your game. The options are: 10, 40, 75, or 135 countries.</p>
             <p tabIndex="1" aria-label="The more you choose, the more chances you'll have to reach the maximum score!">The more you choose, the more chances you'll have to reach the maximum score!</p>
-            <img src="images/numberCountriesOptions.png" aria-label="Image of country number options" id="opciones"/>
+            <img src="/images/numberCountriesOptions.png" aria-label="Image of country number options" id="opciones"/>
             <li tabIndex="1" aria-label="Time trial: get ready to play under pressure if you select this mode. You'll have a time limit to respond, which makes it a true test of speed and knowledge. Recommended if you like real challenges.">
               <b>Time Trial:</b> get ready to play under pressure if you select this mode.
               <p tabIndex="1" aria-label="You'll have a time limit to respond, which makes it a true test of speed and knowledge. Recommended if you like real challenges.">You'll have a time limit to respond, which makes it a true test of speed and knowledge. Recommended if you like real challenges.</p>
-              <img src="images/cronoModeHelp.png" aria-label="Time trial mode image" />
+              <img src="/images/cronoModeHelp.png" aria-label="Time trial mode image" />
             </li>
           </ul>
           <p tabIndex="1" aria-label="Additionally, it has the following option from which you can access the real map where you can see the locations of all countries and cities in the world:">Additionally, it has the following option from which you can access the real map where you can see the locations of all countries and cities in the world:</p>
@@ -76,7 +76,7 @@ const HelpPopup = ({toggleHelp }) => {
             <li tabIndex="1" aria-label="Solution: This option takes you to the complete world map, ideal for studying and improving your geographical knowledge before playing.">
               <b>Solution:</b> This option takes you to the complete world map, ideal for studying and improving your geographical knowledge before playing.
             </li>
-            <img src="images/solutionHelp.png" aria-label="Solution button image" id="solucion"/>
+            <img src="/images/solutionHelp.png" aria-label="Solution button image" id="solucion"/>
           </ul>
         </div>
         <button onClick={toggleHelp} aria-label="Close help" tabIndex="1">Close</button>
