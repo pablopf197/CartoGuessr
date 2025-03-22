@@ -10,7 +10,7 @@ const HelpPopup = ({toggleHelp }) => {
         <h2 tabIndex="1" ref={helpPopupFirstElementRef} role="heading" aria-level="2" aria-label="About the screen symbols">About the screen symbols:</h2>
         <div className="simbolos">
           <div className='home'>
-            <img src="images/homeIcon.png" aria-label="Home Icon" />
+            <img src="../images/homeIcon.png" aria-label="Home Icon" />
             <p tabIndex="1" aria-label="Clicking on this symbol returns you to the home screen.">Clicking on this symbol returns you to the home screen.</p>
           </div>
           <div className='cartoguessr'>
@@ -24,7 +24,7 @@ const HelpPopup = ({toggleHelp }) => {
         </div>
         <h2 tabIndex="1" role="heading" aria-level="2" aria-label="About the game types">About the game types:</h2>
         <div className="juego">
-          <img src="images/countriesGame.jpg" aria-label="Countries game image" />
+          <img src="../images/countriesGame.jpg" aria-label="Countries game image" />
           <div>
             <h2 tabIndex="1" role="heading" aria-level="2" aria-label="Countries Game">Countries Game</h2>
             <p tabIndex="1" aria-label="In this exciting game, you'll immerse yourself in a fascinating world map.">In this exciting game, you'll immerse yourself in a fascinating world map.</p>
