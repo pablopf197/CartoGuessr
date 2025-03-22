@@ -135,7 +135,7 @@ function Navbar() {
   const handleLogin = (e) => {
     e.preventDefault();
     updateFormField('error', '');
-    
+    setFormData(formData.successMessage = false);
     if (login(formData.username, formData.password)) {
       updatePopup('login', false);
       setHighlightToggleAccount(true);
@@ -317,9 +317,14 @@ function Navbar() {
             error={formData.error}
             handleLogin={handleLogin}
             openPasswordRecoveryFirst={() => openPopup('recoverPasswordFirst')}
-            openRegisterFormPopup={() => openPopup('register')}
+            openRegisterFormPopup={() => {
+              openPopup('register')
+              setFormData(formData.successMessage = false)
+            }
+            }
             closeLoginPopup={() => {
               updatePopup('login', false);
+              setFormData(formData.successMessage = false);
               setHighlightToggleAccount(false);
             }}
           />
