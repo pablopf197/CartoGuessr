@@ -62,7 +62,7 @@ const HelpPopup = ({toggleHelp }) => {
               <b>Normal:</b> By selecting this mode, you can play without any time restrictions. It's ideal for those who prefer a more relaxed pace, enjoying and memorizing each country on the globe.
               <img src="/images/normalModeHelp.png" aria-label="Normal mode image" />
             </li>
-            <p tabIndex="1" aria-label="Country options: You can also choose how many countries you want to include in your game. The options are: 10, 40, 75, or 135 countries.">Country options: You can also choose how many countries you want to include in your game. The options are: 10, 40, 75, or 135 countries.</p>
+            <p tabIndex="1" aria-label="Country options: You can also choose how many countries you want to include in your game. The options are: 10, 40, 75, or 135 countries.">Country options: You can also choose how many countries you want to include in your game. The options are: 10, 20, 50, 75, or 135 countries.</p>
             <p tabIndex="1" aria-label="The more you choose, the more chances you'll have to reach the maximum score!">The more you choose, the more chances you'll have to reach the maximum score!</p>
             <img src="/images/numberCountriesOptions.png" aria-label="Image of country number options" id="opciones"/>
             <li tabIndex="1" aria-label="Time trial: get ready to play under pressure if you select this mode. You'll have a time limit to respond, which makes it a true test of speed and knowledge. Recommended if you like real challenges.">
